@@ -2,9 +2,30 @@
 {
     public class Cliente
     {
-        public int  IdCliente { get; set; }
+        private int idCliente;
 
-        public string Nome { get; set; }
+        private string nome;
+
+        //Relacionamento 1 -> n Cliente possui Endereços
+        private Endereco endereco;
+
+        public int IdCliente
+        {
+            get { return idCliente; }
+            set { idCliente = value; }
+        }
+
+        public string Nome
+        {
+            get { return nome; }
+            set { nome = value; }
+        }
+
+        public Endereco Endereco
+        {
+            get { return endereco; }
+            set { endereco = value; }
+        }
 
     }
 }
