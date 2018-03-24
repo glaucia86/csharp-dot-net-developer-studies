@@ -20,9 +20,9 @@ Repositório com a finalidade de rever alguns estudos de C# ASP.NET. Ao mesmo te
 ## Ementa dos conteúdos estudados durante os estudos:
 
 1. [Aula 01:](https://goo.gl/1S9Y9m)
-      * Introdução a .NET;
-      * POO;
-      * Design Patterns - Singleton;
+      * :white_check_mark: ~~Introdução a .NET;~~
+      * :white_check_mark: ~~POO;~~
+      * :white_check_mark: ~~Design Patterns - Singleton;~~
       
 2. [Aula 02:]()
       * Orientação a Objetos em C#;
