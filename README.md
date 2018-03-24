@@ -19,18 +19,18 @@ Repositório com a finalidade de rever alguns estudos de C# ASP.NET. Ao mesmo te
 
 ## Ementa dos conteúdos estudados durante os estudos:
 
-1. [Aula 01:](https://github.com/glaucia86/csharp-dot-net-developer-studies/tree/master/Aula%20-%2001)
+1. [Aula 01:](https://goo.gl/1S9Y9m)
       * Introdução a .NET;
       * POO;
       * Design Patterns - Singleton;
       
-2. [Aula 02:](https://github.com/glaucia86/csharp-dot-net-developer-studies/tree/master/Aula%20-%2002)
+2. [Aula 02:]()
       * Orientação a Objetos em C#;
       * Entrada de Dados & Validações;
       * Tratamentos de Exceções;
       * Manipulação de Arquivos;
       
-3. [Aula 03:](https://github.com/glaucia86/csharp-dot-net-developer-studies/tree/master/Aula%20-%2003)
+3. [Aula 03:]()
       * Interfaces;
       * Polimorfismo;
       * Listas & Coleções de Dados;
