@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Projeto_01.Model;
 
 namespace Projeto_01
 {
@@ -10,7 +11,19 @@ namespace Projeto_01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Testando o Console!!!");
+            var p = new Pessoa
+            {
+                //Entrada de Dados:
+                IdPessoa = 1,
+                Email = "skinclear86@gmail.com",
+                Nome = "Glaucia Lemos"               
+            };
+
+            //Saída de Dados:
+            Console.WriteLine("Id Pessoa....................: " + p.IdPessoa);
+            Console.WriteLine("Nome.........................: " + p.Nome);
+            Console.WriteLine("Email........................: " + p.Email);
+
             Console.ReadKey();
         }
     }
