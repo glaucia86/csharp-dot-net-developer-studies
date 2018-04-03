@@ -9,6 +9,7 @@ namespace Projeto_02.Input
         {
             try
             {
+                Console.Write("Informe o Id do Funcionário....: ");
                 int codigoFuncionario = Convert.ToInt32(Console.ReadLine());
 
                 return codigoFuncionario;
@@ -24,6 +25,7 @@ namespace Projeto_02.Input
         {
             try
             {
+                Console.Write("Informe o nome do Funcionário....: ");
                 string nomeFuncionario = Console.ReadLine();
 
                 var regex = new Regex("^[A-Za-zÀ-Üà-ü0-9\\s]{3,30}$");
@@ -46,6 +48,7 @@ namespace Projeto_02.Input
         {
             try
             {
+                Console.Write("Informe a Idade do Funcionário....: ");
                 int idadeFuncionario = Convert.ToInt32(Console.ReadLine());
 
                 return idadeFuncionario;
@@ -61,6 +64,7 @@ namespace Projeto_02.Input
         {
             try
             {
+                Console.Write("Informa a Função do Funcionário....: ");
                 string funcaoFuncionario = Console.ReadLine();
 
                 var regex = new Regex("^[A-Za-zÀ-Üà-ü0-9\\s]{3,30}$");
@@ -83,6 +87,7 @@ namespace Projeto_02.Input
         {
             try
             {
+                Console.Write("Informe o Tempo de Empresa do Funcionário....: ");
                 int tempoEmpresa = Convert.ToInt32(Console.ReadLine());
 
                 return tempoEmpresa;
