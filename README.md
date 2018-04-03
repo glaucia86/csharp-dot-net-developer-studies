@@ -24,11 +24,11 @@ Repositório com a finalidade de rever alguns estudos de C# ASP.NET. Ao mesmo te
       * :white_check_mark: POO;
       * :white_check_mark: Design Patterns - Singleton;
       
-2. [Aula 02:]()
-      * Orientação a Objetos em C#;
-      * Entrada de Dados & Validações;
-      * Tratamentos de Exceções;
-      * Manipulação de Arquivos;
+2. [Aula 02:](https://goo.gl/pZNdsV)
+      * :white_check_mark: Orientação a Objetos em C#;
+      * :white_check_mark: Entrada de Dados & Validações;
+      * :white_check_mark: Tratamentos de Exceções;
+      * :white_check_mark: Manipulação de Arquivos;
       
 3. [Aula 03:]()
       * Interfaces;
