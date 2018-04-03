@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace Projeto_01.Input
 {
@@ -32,7 +33,14 @@ namespace Projeto_01.Input
                 Console.Write("Informe o nome do Produto: ");
                 string nome = Console.ReadLine();
 
-                return nome;
+                var regex = new Regex("^[A-Za-zÀ-Üà-ü0-9\\s]{3,30}$");
+
+                if (regex.IsMatch(nome))
+                {
+                    return nome;
+                }
+
+                throw new Exception("Nome inválido!");
             }
             catch (Exception ex)
             {
