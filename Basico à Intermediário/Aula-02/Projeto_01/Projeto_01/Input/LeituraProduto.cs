@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Projeto_01.Input
 {
@@ -15,7 +11,12 @@ namespace Projeto_01.Input
                 Console.Write("Informe o Código do Produto: ");
                 int codigo = Convert.ToInt32(Console.ReadLine());
 
-                return codigo;
+                if (codigo > 0)
+                {
+                    return codigo;
+                }
+
+                throw new Exception("Código inválido!");
             }
             catch (Exception ex)
             {
@@ -47,7 +48,12 @@ namespace Projeto_01.Input
                 Console.Write("Informe o Preço do Produto: R$ ");
                 decimal preco = Convert.ToDecimal(Console.ReadLine());
 
-                return preco;
+                if (preco > 0 && preco <= 1000)
+                {
+                    return preco;
+                }
+
+                throw new Exception("Preço inválido!");
             }
             catch (Exception ex)
             {
