@@ -36,5 +36,23 @@ namespace Projeto_01.Model
                 Console.WriteLine(funcionario.ToString());
             }
         }
+
+        public void Teste_02()
+        {
+            var lista = new List<Funcionario>
+            {
+                new Funcionario(1, "Rafael Almeida", 5000),
+                new Funcionario(1, "Ray Carneiro", 7000),
+                new Funcionario(1, "Daniel Passos", 3000)
+            };
+
+            Console.WriteLine("Quantidade de Funcionários.....: " + lista.Count);
+
+            // Saída das infos da lista:
+            foreach (var funcionario in lista)
+            {
+                Console.WriteLine(funcionario.ToString());
+            }
+        }
     }
 }
