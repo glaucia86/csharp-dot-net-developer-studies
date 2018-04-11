@@ -30,11 +30,11 @@ Repositório com a finalidade de rever alguns estudos de C# ASP.NET. Ao mesmo te
       * :white_check_mark: Tratamentos de Exceções;
       * :white_check_mark: Manipulação de Arquivos;
       
-3. [Aula 03:]()
-      * Interfaces;
-      * Polimorfismo;
-      * Relacionamentos entre Classes;
-      * Listas & Coleções de Dados;
+3. [Aula 03:](https://bit.ly/2GQrLt2)
+      * :white_check_mark: Interfaces;
+      * :white_check_mark: Polimorfismo;
+      * :white_check_mark: Relacionamentos entre Classes;
+      * :white_check_mark: Listas & Coleções de Dados;
       
 4. [Aula 04:]()   
       * Acesso a Banco de Dados (SqlServer/ SqlClient);
