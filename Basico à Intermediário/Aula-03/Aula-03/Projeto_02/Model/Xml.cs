@@ -18,7 +18,7 @@ namespace Projeto_02.Model
 
             sb.Append("<?xml version='1.0' ?>");
             sb.Append("<dados>");
-                sb.AppendFormat("<texto>{0}</texto>");
+                sb.AppendFormat("<texto>{0}</texto>", texto);
             sb.Append("</dados>");
             sw.WriteLine(sb.ToString());
         }
