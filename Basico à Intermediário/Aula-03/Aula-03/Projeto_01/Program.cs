@@ -8,7 +8,7 @@ namespace Projeto_01
         static void Main(string[] args)
         {
             var estudo = new Estudo();
-            //estudo.Teste_01();
+            estudo.Teste_01();
             estudo.Teste_02();
 
             Console.ReadKey();

@@ -54,5 +54,20 @@ namespace Projeto_01.Model
                 Console.WriteLine(funcionario.ToString());
             }
         }
+
+        public void Teste_03(string professor)
+        {
+            var mapa = new Dictionary<string, Funcionario>();
+
+            mapa.Add("Professor", new Funcionario(1, "Ray Carneiro", 3500));
+            mapa.Add("Ajudante", new Funcionario(1, "José Lemos", 2500));
+
+            foreach (var funcionario in mapa)
+            {
+                var chave = funcionario.Key;
+                var valor = funcionario.Value;
+                Console.WriteLine(chave + " - " + valor);
+            }
+        }
     }
 }
